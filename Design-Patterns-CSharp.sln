@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{C2AAE0EE-0E34-412C-80F1-D2F3C9CC3548}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{214F8AFD-ECCC-4A82-B22B-FFAAA24A0A6D}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Design-Patterns-CSharp", "src\Design-Patterns-CSharp\Design-Patterns-CSharp.xproj", "{DE87EE81-3A74-4321-B213-FB0685BF8FC2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DE87EE81-3A74-4321-B213-FB0685BF8FC2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE87EE81-3A74-4321-B213-FB0685BF8FC2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE87EE81-3A74-4321-B213-FB0685BF8FC2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE87EE81-3A74-4321-B213-FB0685BF8FC2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{DE87EE81-3A74-4321-B213-FB0685BF8FC2} = {C2AAE0EE-0E34-412C-80F1-D2F3C9CC3548}
+	EndGlobalSection
+EndGlobal
