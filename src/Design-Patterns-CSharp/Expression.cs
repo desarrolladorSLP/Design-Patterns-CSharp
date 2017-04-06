@@ -5,12 +5,8 @@ using System.Threading.Tasks;
 
 namespace Design_Patterns_CSharp
 {
-    public class Program
+    public interface Expression
     {
-        public static void Main(string[] args)
-        {
-			Context context = null;
-			context.["llave"] = 2;
-        }
+		double Evaluate(Context context);
     }
 }
