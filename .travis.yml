@@ -1,9 +1,4 @@
 language: csharp
 solution: Design-Patterns-CSharp.sln
-
-matrix:
-  include:
-    - dotnet: 1.0.1
-      mono: none
-      env: DOTNETCORE=1 
-    - mono: latest
+mono: none
+dotnet: 1.0.1
