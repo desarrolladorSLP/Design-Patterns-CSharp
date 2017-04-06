@@ -14,9 +14,9 @@ namespace Interpreter
 			get { return GetVariable(key); }
 			set { SetVariable(key, value); }
 		}
-		private Context SetVariable(string name, double value)
+		private Context SetVariable(string key, double value)
 		{
-			symbolTable.Add(name, value);
+			symbolTable.Add(key, value);
 			return this;
 		}
 		private double GetVariable(string key)
