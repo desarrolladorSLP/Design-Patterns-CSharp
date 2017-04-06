@@ -1,3 +1,5 @@
+sudo: required
+dist: trusty
 language: csharp
 solution: Design-Patterns-CSharp.sln
 mono: none
