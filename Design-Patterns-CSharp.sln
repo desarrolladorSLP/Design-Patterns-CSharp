@@ -10,6 +10,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		.travis.yml = .travis.yml
 		build.sh = build.sh
 		global.json = global.json
+		project.json = project.json
 	EndProjectSection
 EndProject
 Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Interpreter", "src\Interpreter\Interpreter.xproj", "{09CF890E-1D10-426D-8FEF-6232DB433797}"
