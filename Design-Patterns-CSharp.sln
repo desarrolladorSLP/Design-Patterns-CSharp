@@ -1,68 +1,67 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio 15
+VisualStudioVersion = 15.0.26403.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{C2AAE0EE-0E34-412C-80F1-D2F3C9CC3548}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{214F8AFD-ECCC-4A82-B22B-FFAAA24A0A6D}"
 	ProjectSection(SolutionItems) = preProject
 		.travis.yml = .travis.yml
-		build.sh = build.sh
 		global.json = global.json
 	EndProjectSection
 EndProject
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Interpreter", "src\Interpreter\Interpreter.xproj", "{09CF890E-1D10-426D-8FEF-6232DB433797}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Interpreter", "src\Interpreter\Interpreter.csproj", "{09CF890E-1D10-426D-8FEF-6232DB433797}"
 EndProject
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "AbstractFactory", "src\AbstractFactory\AbstractFactory.xproj", "{2C3FA29A-207E-4BAD-A965-2D70E5225B49}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AbstractFactory", "src\AbstractFactory\AbstractFactory.csproj", "{2C3FA29A-207E-4BAD-A965-2D70E5225B49}"
 EndProject
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Adapter", "src\Adapter\Adapter.xproj", "{58FCFC36-B8BF-4702-B1DA-057CBDDBE8F7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Adapter", "src\Adapter\Adapter.csproj", "{58FCFC36-B8BF-4702-B1DA-057CBDDBE8F7}"
 EndProject
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Bridge", "src\Bridge\Bridge.xproj", "{F30ADF86-97D5-406B-B121-9F59BA4C4196}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bridge", "src\Bridge\Bridge.csproj", "{F30ADF86-97D5-406B-B121-9F59BA4C4196}"
 EndProject
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Builder", "src\Builder\Builder.xproj", "{B4BE1828-5048-40E2-BFCC-237B5F040831}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Builder", "src\Builder\Builder.csproj", "{B4BE1828-5048-40E2-BFCC-237B5F040831}"
 EndProject
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Command", "src\Command\Command.xproj", "{25000DD4-A065-4E7E-8226-EF3196B2BFC1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Command", "src\Command\Command.csproj", "{25000DD4-A065-4E7E-8226-EF3196B2BFC1}"
 EndProject
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Composite", "src\Composite\Composite.xproj", "{067262A6-C2FC-4565-9D4C-86272F20DF9D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Composite", "src\Composite\Composite.csproj", "{067262A6-C2FC-4565-9D4C-86272F20DF9D}"
 EndProject
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Iterator", "src\Iterator\Iterator.xproj", "{4E484F90-010B-450F-86A2-EF2F351ED446}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Iterator", "src\Iterator\Iterator.csproj", "{4E484F90-010B-450F-86A2-EF2F351ED446}"
 EndProject
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Mediator", "src\Mediator\Mediator.xproj", "{79819A6F-EF80-492B-9B05-CFDF7D1E3E19}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mediator", "src\Mediator\Mediator.csproj", "{79819A6F-EF80-492B-9B05-CFDF7D1E3E19}"
 EndProject
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Memento", "src\Memento\Memento.xproj", "{0F47D7E3-C897-43F9-965F-20089E56D12E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Memento", "src\Memento\Memento.csproj", "{0F47D7E3-C897-43F9-965F-20089E56D12E}"
 EndProject
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "NullObject", "src\NullObject\NullObject.xproj", "{F7C2E22E-324A-4AD3-939C-640EC5A391AE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NullObject", "src\NullObject\NullObject.csproj", "{F7C2E22E-324A-4AD3-939C-640EC5A391AE}"
 EndProject
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "ObjectPool", "src\ObjectPool\ObjectPool.xproj", "{CA5A7678-556C-484F-A241-6E14BA34D7B2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ObjectPool", "src\ObjectPool\ObjectPool.csproj", "{CA5A7678-556C-484F-A241-6E14BA34D7B2}"
 EndProject
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Observer", "src\Observer\Observer.xproj", "{4CB0B0E9-466B-4876-8B6B-223D14E7104F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Observer", "src\Observer\Observer.csproj", "{4CB0B0E9-466B-4876-8B6B-223D14E7104F}"
 EndProject
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Decorator", "src\Decorator\Decorator.xproj", "{EC7ACB3C-F8EB-43E3-A728-469B62E12B80}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Decorator", "src\Decorator\Decorator.csproj", "{EC7ACB3C-F8EB-43E3-A728-469B62E12B80}"
 EndProject
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Facade", "src\Facade\Facade.xproj", "{1AAFD93B-E2B6-4A7C-B94F-79D75BBCD8F4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Facade", "src\Facade\Facade.csproj", "{1AAFD93B-E2B6-4A7C-B94F-79D75BBCD8F4}"
 EndProject
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "FactoryMethod", "src\FactoryMethod\FactoryMethod.xproj", "{A46EEC78-B6FD-4C28-941E-C239ADEE9457}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FactoryMethod", "src\FactoryMethod\FactoryMethod.csproj", "{A46EEC78-B6FD-4C28-941E-C239ADEE9457}"
 EndProject
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Flyweight", "src\Flyweight\Flyweight.xproj", "{77220EB9-30BA-45A7-8756-867203D17D08}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Flyweight", "src\Flyweight\Flyweight.csproj", "{77220EB9-30BA-45A7-8756-867203D17D08}"
 EndProject
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "PrivateClassData", "src\PrivateClassData\PrivateClassData.xproj", "{4FFBE659-B07D-4008-8C57-877D5F14BBB5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PrivateClassData", "src\PrivateClassData\PrivateClassData.csproj", "{4FFBE659-B07D-4008-8C57-877D5F14BBB5}"
 EndProject
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Prototype", "src\Prototype\Prototype.xproj", "{AE2A4C7D-7CE0-42C7-8338-5E02C24DFF9E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Prototype", "src\Prototype\Prototype.csproj", "{AE2A4C7D-7CE0-42C7-8338-5E02C24DFF9E}"
 EndProject
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Proxy", "src\Proxy\Proxy.xproj", "{F76CBAAC-4E86-40DB-8DCB-6C75D7CB2480}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Proxy", "src\Proxy\Proxy.csproj", "{F76CBAAC-4E86-40DB-8DCB-6C75D7CB2480}"
 EndProject
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Singleton", "src\Singleton\Singleton.xproj", "{D9358945-484D-48EC-9DD9-DD74FFC5214A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Singleton", "src\Singleton\Singleton.csproj", "{D9358945-484D-48EC-9DD9-DD74FFC5214A}"
 EndProject
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "State", "src\State\State.xproj", "{2FFA0175-6625-438F-ABD4-2B9AAAAF1B22}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "State", "src\State\State.csproj", "{2FFA0175-6625-438F-ABD4-2B9AAAAF1B22}"
 EndProject
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Strategy", "src\Strategy\Strategy.xproj", "{499A8527-BEAD-4E85-B2F8-30E63E571025}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Strategy", "src\Strategy\Strategy.csproj", "{499A8527-BEAD-4E85-B2F8-30E63E571025}"
 EndProject
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "TemplateMethod", "src\TemplateMethod\TemplateMethod.xproj", "{446111F4-B52A-4FB9-9292-9649938DDE85}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TemplateMethod", "src\TemplateMethod\TemplateMethod.csproj", "{446111F4-B52A-4FB9-9292-9649938DDE85}"
 EndProject
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Visitor", "src\Visitor\Visitor.xproj", "{B0FB9451-B95A-4A0F-9548-CE860583CC73}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Visitor", "src\Visitor\Visitor.csproj", "{B0FB9451-B95A-4A0F-9548-CE860583CC73}"
 EndProject
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "ChainOfResponsability", "src\ChainOfResponsability\ChainOfResponsability.xproj", "{9F4D840C-AAC5-47DE-A410-D9F6D5ACF4F1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ChainOfResponsability", "src\ChainOfResponsability\ChainOfResponsability.csproj", "{9F4D840C-AAC5-47DE-A410-D9F6D5ACF4F1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
